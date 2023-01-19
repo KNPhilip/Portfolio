@@ -1,0 +1,187 @@
+header h1 {
+  font-size: 100px;
+}
+header h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 60px;
+}
+
+h1, h2, h3 {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.4745098039);
+}
+
+h2 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 22px;
+}
+
+#logo {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 200px;
+  border-radius: 50%;
+  border: solid 5px #458745;
+  box-shadow: black 2px 2px 20px;
+}
+
+.downclick {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border: none;
+  width: 120px !important;
+  height: 120px !important;
+  background: rgba(0, 0, 0, 0);
+  text-shadow: black 2px 2px 6px;
+}
+
+.downarrow {
+  font-size: 70px;
+  color: rgb(36, 122, 36);
+  transition: 0.2s;
+  position: relative;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: example;
+          animation-name: example;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+}
+
+.downarrow:hover {
+  color: rgb(114, 199, 114);
+}
+
+.webbutton {
+  font-size: 20px;
+  font-family: "Fredoka One", cursive;
+  background-color: white;
+  color: #215b21;
+  border: 2px solid #458745;
+  border-radius: 50px;
+  transition-duration: 0.4s;
+  height: 80px;
+  width: 350px;
+  margin: 20px;
+}
+
+.webbutton:hover {
+  background-color: #458745;
+  color: white;
+}
+
+.softwarebutton {
+  font-size: 20px;
+  font-family: "Fredoka One", cursive;
+  background-color: white;
+  color: #275d85;
+  border: 2px solid #4594cc;
+  border-radius: 50px;
+  transition-duration: 0.4s;
+  height: 80px;
+  width: 350px;
+  margin: 20px;
+}
+
+.softwarebutton:hover {
+  background-color: #4594cc;
+  color: white;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: black 3px 3px 10px;
+  margin: 8px;
+  width: 23%;
+}
+
+.card-img-top {
+  border-radius: 2px;
+}
+
+.card-title {
+  font-size: 27px;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.cardbutton {
+  background: #ffffff;
+  border: 2px solid #458745;
+  color: #458745;
+  font-size: 19px;
+  margin-top: auto;
+  position: relative;
+  transition-duration: 0.15s;
+}
+
+.cardbutton:hover {
+  background-color: #458745;
+  color: white;
+}
+
+@media only screen and (max-width: 1300px) {
+  .card {
+    width: 30%;
+  }
+  .card-text {
+    font-size: 17px;
+  }
+  .card-title {
+    font-size: 26px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .card {
+    width: 45%;
+  }
+  .card-text {
+    font-size: 15px;
+  }
+  .card-title {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .card {
+    width: 88%;
+    margin: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header h1 {
+    font-size: 50px;
+  }
+  header h3 {
+    font-size: 30px;
+  }
+}
+@-webkit-keyframes example {
+  86% {
+    top: 0px;
+  }
+  93% {
+    top: 35px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes example {
+  86% {
+    top: 0px;
+  }
+  93% {
+    top: 35px;
+  }
+  100% {
+    top: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */
